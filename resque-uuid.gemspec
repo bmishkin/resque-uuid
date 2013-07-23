@@ -45,18 +45,18 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<rake>, [">= 0"])
       s.add_runtime_dependency(%q<resque>, [">= 0"])
       s.add_runtime_dependency(%q<uuidtools>, [">= 0"])
-      s.add_runtime_dependency(%q<resque>, ["= 1.13.0"])
+      s.add_runtime_dependency(%q<resque>, [">= 1.13.0"])
     else
       s.add_dependency(%q<rake>, [">= 0"])
       s.add_dependency(%q<resque>, [">= 0"])
       s.add_dependency(%q<uuidtools>, [">= 0"])
-      s.add_dependency(%q<resque>, ["= 1.13.0"])
+      s.add_dependency(%q<resque>, [">= 1.13.0"])
     end
   else
     s.add_dependency(%q<rake>, [">= 0"])
     s.add_dependency(%q<resque>, [">= 0"])
     s.add_dependency(%q<uuidtools>, [">= 0"])
-    s.add_dependency(%q<resque>, ["= 1.13.0"])
+    s.add_dependency(%q<resque>, [">= 1.13.0"])
   end
 end
 

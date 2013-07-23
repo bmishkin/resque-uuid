@@ -9,7 +9,7 @@ begin
     gem.email = "davebenvenuti@gmail.com"
     gem.homepage = "http://github.com/davebenvenuti/resque-uuid"
     gem.authors = ["davebenvenuti"]
-    gem.add_dependency "resque", "1.13.0"
+    gem.add_dependency "resque", ">=1.13.0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
